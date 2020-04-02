@@ -1,0 +1,86 @@
+body{
+    background: #0f6674;
+}
+h1{
+    align-content: center;
+    background-color: white;
+    width: 25%;
+    border: 2px solid gold;
+    border-radius: 80px;
+    margin: auto;
+}
+
+.button{
+    text-align: center;
+    margin-top: 5px;
+}
+#hs-area {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hsCards{
+    height: 400px;
+    width:  300px;
+    display: flex;
+    justify-content: center;
+    background: blanchedalmond;
+    border: 2px solid black;
+    border-radius: 40px;
+    margin: 10px 5px 8px ;
+    padding: 20px;
+}
+
+.hsCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+}
+.hsName {
+    color: blue;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+.hsAbility{
+    background: slategrey;
+    border: 1px solid black;
+    border-radius:  10px;
+    text-align: center;
+
+}
+.hsAttack{
+    text-align: center;
+
+}
+.hsAttack:before {
+    content: "Attack: ";
+}
+.hsHealth{
+    text-align: center;
+}
+.hsHealth:before {
+    content: " Health: ";
+}
+.hsManaCost{
+    text-align: center;
+}
+.hsManaCost:before {
+    content: "Mana Cost: ";
+}
+img{
+    height: 50%;
+    width: 50%;
+    margin-bottom: 25px;
+
+}
+p{
+    color: black;
+    margin-top: 4px;
+}
